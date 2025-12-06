@@ -15,7 +15,7 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 # Initialize API client
 api = HfApi(token=HF_TOKEN)
 
-DATASET_PATH = "hf://datasets/Machine-Failure-Prediction/machine-failure-prediction.csv"
+DATASET_PATH = "hf://datasets/ShashankSardana/Machine-Failure-Prediction/machine-failure-prediction.csv"
 df = pd.read_csv(DATASET_PATH)
 print("Dataset loaded successfully.")
 
